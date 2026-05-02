@@ -1,8 +1,8 @@
 #include "thingProperties.h"
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_SSD1306.h>
-#include <Wire.h>
 #include <WiFi.h>
+#include <Wire.h>
 
 // Hardware Definitions
 Adafruit_MPU6050 mpu;
@@ -15,9 +15,9 @@ const int buzzerPin = 25;
 // --- HASSAS KALİBRASYON EŞİKLERİ ---
 const int gripThreshold = 300;
 const float xDownLimit = 9.0;    // 9 ve üzeri dambıl aşağıda kabul edilir
-const float xUpLimit = 1.0;      // 1 ve altı dambıl yukarıda kabul edilir
+const float xUpLimit = 2;        // 2 ve altı dambıl yukarıda kabul edilir
 const float zUpThreshold = -6.5; // Yukarıdayken Z (-7, -8 arası)
-const float yFormLimit = 3; // Y ekseni formu (Sola/Sağa fazla açılma sınırı)
+const float yFormLimit = 3.5; // Y ekseni formu (Sola/Sağa fazla açılma sınırı)
 
 // State Tracking
 bool isGoingUp = false;
