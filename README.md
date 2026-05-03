@@ -76,4 +76,4 @@ This project uses **Arduino Cloud** for remote monitoring and control.
 ![Dashboard Screenshot 1](dashboard.png)
 
 **Project Demo:**
-* [Click here to watch the demonstration video](YouTube_or_Drive_Link)
+* [Click here to watch the demonstration video](https://youtu.be/jdbOkArdVLg)
